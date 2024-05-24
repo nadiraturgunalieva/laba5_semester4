@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0578a263-91cb-4fe4-b0f9-ccf7278f7f99}</ProjectGuid>
-    <RootNamespace>laba5semester4</RootNamespace>
+    <ProjectGuid>{bd8add8d-8c9a-4600-8ce9-06ecd6bfee98}</ProjectGuid>
+    <RootNamespace>laba5n3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="pusto.cpp" />
+    <ClCompile Include="laba5_n3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="books.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
